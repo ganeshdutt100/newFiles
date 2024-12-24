@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        margin: 0;
+      }
+      nav {
+        background-color: rgba(0, 0, 0, 0.301);
+        color: rgb(0, 0, 0);
+        display: flex;
+        justify-content: space-around;
+        padding: 20px;
+        position: fixed;
+        width: 94%;
+        backdrop-filter: blur(20px);
+        border-radius: 51px;
+        margin-left: 18px;
+        margin-top: 10px;
+      }
+      .logo img {
+        width: 50px;
+        height: 50px;
+      }
+
+      ul {
+        display: flex;
+        gap: 30px;
+        list-style: none;
+        margin-top: 15px;
+      }
+      ul li a {
+        text-decoration: none;
+        font-size: 23px;
+        color: white;
+      }
+      ul li a:hover {
+        color: yellow;
+      }
+      ul li a:active {
+        color: red;
+      }
+
+      /* section1 */
+      button {
+        background-color: black;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+        border-radius: 20px;
+      }
+      button:hover {
+        background-color: yellow;
+        color: black;
+      }
+
+      .section1 {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        padding: 120px 20px;
+      }
+      .section1 img {
+        width: 500px;
+        height: 400px;
+        object-fit: cover;
+        border-radius: 30px;
+      }
+      .sec1Text {
+        margin-top: 20px;
+      }
+
+      /* section2 */
+
+      .section2 {
+      }
+      .sec2Heading {
+        text-align: center;
+      }
+      .empty {
+        background-color: red;
+        width: 300px;
+        height: 4px;
+        margin: auto;
+        border-radius: 50%;
+      }
+      .sec2Cards {
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .sec2card1 {
+        width: 300px;
+        height: 400px;
+        background-color: lightblue;
+        border-radius: 10px;
+      }
+      .sec2card1 img {
+        width: 100%;
+        height: 200px;
+        border-radius: 10px;
+      }
+
+      .sec2Text {
+        margin-top: 10px;
+        line-height: 1.4;
+        /* padding: 0 10px; */
+        text-align: center;
+      }
+      .sec2Text button {
+        margin-top: 10px;
+      }
+
+      /* .sec3Box */
+      .sec3Box {
+        background-color: blueviolet;
+        width: 300px;
+        height: 300px;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://cdn-icons-png.freepik.com/256/17359/17359683.png?ga=GA1.1.1872758581.1724841441&semt=ais_hybrid"
+          alt=""
+        />
+      </div>
+
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Projects</a></li>
+      </ul>
+    </nav>
+
+    <!-- ========== Start Section-1 ========== -->
+    <div class="section1">
+      <img
+        src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.1872758581.1724841441&semt=ais_hybrid"
+        alt=""
+      />
+      <div class="sec1Text">
+        <h1>Lorem ipsum dolor sit amet.</h1>
+        <p style="margin-top: 20px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          inventore dicta eaque laboriosam accusamus reprehenderit obcaecati,
+          minus atque vero molestias alias aut aspernatur deserunt, hic ad nisi
+          nobis. Laborum, atque.
+        </p>
+        <p style="margin-top: 20px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          inventore dicta eaque laboriosam accusamus reprehenderit obcaecati,
+          minus atque vero molestias alias aut aspernatur deserunt, hic ad nisi
+          nobis. Laborum, atque.
+        </p>
+        <p style="margin-bottom: 10px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          inventore dicta eaque laboriosam accusamus reprehenderit obcaecati,
+          minus atque vero molestias alias aut aspernatur deserunt, hic ad nisi
+          nobis. Laborum, atque.
+        </p>
+        <p style="margin-bottom: 10px">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat
+          inventore dicta eaque laboriosam accusamus reprehenderit obcaecati,
+          minus atque vero molestias alias aut aspernatur deserunt, hic ad nisi
+          nobis. Laborum, atque.
+        </p>
+        <button>Read More</button>
+      </div>
+    </div>
+    <!-- ========== End Section-1 ========== -->
+
+    <!-- ========== Start Section-2 ========== -->
+
+    <div class="section2">
+      <h1 class="sec2Heading">Lorem ipsum dolor sit amet.</h1>
+      <div class="empty"></div>
+
+      <div class="sec2Cards">
+        <div class="sec2card1">
+          <img
+            src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.1872758581.1724841441&semt=ais_hybrid"
+            alt=""
+          />
+          <div class="sec2Text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              repellendus, cupiditate dicta ullam beatae eaque soluta
+              necessitatibus quam, a quis corporis ipsum distinctio dolore. Illo
+              enim corporis tempora tenetur voluptatem.
+            </p>
+            <button>ReadMore..</button>
+          </div>
+        </div>
+
+        <div class="sec2card1">
+          <img
+            src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.1872758581.1724841441&semt=ais_hybrid"
+            alt=""
+          />
+          <div class="sec2Text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              repellendus, cupiditate dicta ullam beatae eaque soluta
+              necessitatibus quam, a quis corporis ipsum distinctio dolore. Illo
+              enim corporis tempora tenetur voluptatem.
+            </p>
+            <button>ReadMore..</button>
+          </div>
+        </div>
+
+        <div class="sec2card1">
+          <img
+            src="https://img.freepik.com/free-photo/rear-view-programmer-working-all-night-long_1098-18697.jpg?ga=GA1.1.1872758581.1724841441&semt=ais_hybrid"
+            alt=""
+          />
+          <div class="sec2Text">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia,
+              repellendus, cupiditate dicta ullam beatae eaque soluta
+              necessitatibus quam, a quis corporis ipsum distinctio dolore. Illo
+              enim corporis tempora tenetur voluptatem.
+            </p>
+            <button>ReadMore..</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Section-2 ========== -->
+    <!-- ========== Start Section-3 ========== -->
+    <div class="sec3Box"></div>
+    <!-- ========== End Section-3 ========== -->
+
+    <div class="section3"></div>
+  </body>
+</html>
+
+<!-- Dear Student,
+
+We hope you enjoyed the Web Development Workshop. To receive your e-certificate, it is essential to mark your attendance using the link provided below:
+
+Attendance Link: https://forms.gle/xM7f9Kyjv5rcwzxG6
+
+Kindly complete this step at your earliest convenience to ensure the timely issuance of your e-certificate.
+
+Best regards, -->
